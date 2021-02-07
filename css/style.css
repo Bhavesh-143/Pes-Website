@@ -1,0 +1,496 @@
+html{
+    scroll-behavior: smooth; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+/***************************** Home ****************************/
+.header{
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(0);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../Images/home.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+
+}
+
+
+@media(max-width : 768px){
+    .header{
+       
+        width: 100%;
+        
+       background-image: url('../Images/home-mobile.jfif');
+      
+    }
+}
+
+
+.navbar{
+    font-weight: bold;
+    background:linear-gradient(165deg, rgba(37, 53, 110, 1) 0%, rgba(39, 48, 80, 1) 11%, rgba(64, 53, 93, 1) 83%, rgba(96, 44, 111, 1) 100%);
+}
+
+
+.nav-item a{
+    color: #fff !important;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.navbar-nav{
+    margin-right: 30px;
+}
+
+.dropdown-menu{
+    background:linear-gradient(165deg, rgba(37, 53, 110, 1) 0%, rgba(39, 48, 80, 1) 100%);
+}
+
+.dropdown-menu a:hover{
+    color:  rgb(0,173,156)!important;
+    background: none;
+}
+
+.nav-item a:hover{
+    color:  rgb(0,173,156)!important;
+    transition: 0.4s;
+}
+
+
+@media(max-width : 768px){
+    .nav-item{
+        text-align: center;
+    }
+}
+  
+
+
+
+/*****************************Home ends***************************/
+
+/*****************************About starts************************/
+.about{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.about-img img{
+    height: 350px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+}
+
+.about-img img:hover{
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 247, 185, 0.281);
+    box-shadow: 0 0 10px 0  rgba(0, 247, 185, 0.281);
+}
+
+@media(max-width : 768px){
+    .about-img img{
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media(max-width : 768px){
+    .about{
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+.about .container .about-ul li{
+    font-family: 'Noto Serif', serif !important;
+    font-size: 18px!important;
+}
+
+
+/*****************************About ends*************************/
+
+/*****************************Cards starts******************************/
+ 
+.typeplayers{
+    width: 100%;
+    position: relative;
+}
+
+
+.swiper-container-outer{
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+}
+
+
+.swiper-container{
+    position: relative;
+    height: 300px;
+    width: auto;
+    padding-top: 10px;
+}
+
+
+.swiper-wrapper{
+     height: auto;
+     width:100%;
+  
+
+}
+.swiper-slide{
+    width: 180px;
+    height: 250px;
+   
+}
+
+.swiper-slide img{
+    width: 180px;
+    height: 250px ;
+    
+} 
+
+.swiper-slide img:hover{
+    transform: translate(0,-3px);
+    
+}
+
+.games{
+    background:linear-gradient(165deg, rgba(37, 53, 110, 1) 0%, rgba(39, 48, 80, 1) 11%, rgba(64, 53, 93, 1) 83%, rgba(96, 44, 111, 1) 100%);
+}
+
+
+/******************************Card ends***********************/
+
+
+
+/*******************************follow starts************************/
+
+.follow-section{
+    width: 100%;
+    height: 230px;
+    padding-top : 30px;
+    position: relative;
+    
+}
+
+.media-buttons{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+
+.media-buttons i{
+    font-size: 50px;
+    
+}
+
+.media-buttons i:hover{
+    color:rgba(0,0,0,0.3);
+}
+
+
+.follow-button .fa-instagram{
+    color: #d6249f;
+}
+
+.follow-button .fa-facebook-square{
+    color: #2883ff;
+}
+
+.follow-button .fa-twitter-square{
+    color: #2883ff;
+}
+
+.follow-button .fa-youtube-play{
+    color: red;
+}
+
+@media(max-width : 768px){
+    .follow-button i{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+/*******************************follow ends**********************/
+
+
+/******************************** News starts******************/
+
+.news{
+    width: 100%;
+    position: relative;
+}
+
+.card{
+    
+    border-radius: 12px;
+    border: none;
+    
+}
+
+.card:hover{
+    -webkit-box-shadow: 0 0 50px 0 rgba(12, 12, 12, 0.281);
+    box-shadow: 0 0 50px 0 rgba(12, 12, 12, 0.281);
+
+}
+
+.card img{
+    height: 200px;
+    border-top-left-radius: 12px ;
+    border-top-right-radius: 12px;
+    
+}
+
+.card-title{
+    font-size: 18px;
+}
+
+.card-text{
+    color: #414040;
+}
+
+
+
+@media(max-width : 768px){
+    .card{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+}
+
+/***********************************News ends******************/
+
+
+
+/************************** Feedback starts***************************/
+
+.feedback{
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+    position: relative;
+    
+}
+
+
+.feedback:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;  
+}
+
+.btn{
+   
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 12px 30px;
+    outline: none;
+    color: #fff;
+    background: rgb(0,173,156);
+    background: linear-gradient(0deg, rgba(0,173,156,1) 0%, rgba(5,179,162,1) 100%);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    
+    
+}
+
+.btn:hover{
+    background: linear-gradient(0deg, rgba(5,179,162,1) 0%,rgba(0,173,156,1) 100%);
+    border:none;
+    color:#fff;
+}
+
+
+@media(max-width : 1400px){
+    .feedback{
+        width: 100%;
+        height: 700px;
+
+
+    }
+
+}
+/******************feedback ends****************/
+
+
+/*******************footer image starts****************/
+
+.footer-hr{
+   position: relative;
+   border: none;
+   height: 0.5px;
+   background: black;
+}
+
+.footer-img{
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width :768px){
+    .footer-img img{
+        margin-top: 10px;
+    }
+}
+
+/*****************footer image ends*****************/
+
+
+/****************** download starts******************/
+
+.download{
+    width: 100%;
+    position: relative;
+}
+.download .container img{
+    height: 50px;
+    width: 165px;
+}
+
+.download i{
+    font-size: 30px;
+    
+}
+
+@media (max-width : 768px){
+    .download .container img{
+        height: 35px;
+        width: 100px;
+    }
+}
+
+@media(max-width:768px){
+    .download h4{
+        font-size: 18px;
+    }
+}
+
+.colorchange{
+    animation: colorchangewhizz 1s infinite;
+}
+
+@keyframes colorchangewhizz {
+    0%{color:  rgb(0,173,156);}
+    25%{color:  red;}
+    50%{color: rgba(37, 53, 110, 1);}
+    100%{color:   rgb(0,173,156);}
+}
+
+/********************download ends*******************/
+
+
+
+
+/*----------------Footer Section starts----------------*/
+
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 5px 0;
+    background:linear-gradient(165deg, rgba(37, 53, 110, 1) 0%, rgba(39, 48, 80, 1) 11%, rgba(64, 53, 93, 1) 83%, rgba(96, 44, 111, 1) 100%);
+    position: relative;
+}
+
+
+
+
+.footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footersection li a:hover{
+    transform: translate(5px);
+    transition: 0.1s;
+}
+
+.footersection li i:hover{
+    transform: translate(5px);
+    transition: 0.1s;
+}
+
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+ul{
+    list-style-type: none;
+}
+
+/**************************Footer ends************************************/
+
+
+
+/**************************************scroll btn starts******************************/
+
+#myBtn{
+ 
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: rgb(0,173,156);
+    background: linear-gradient(0deg, rgba(0,173,156,1) 0%, rgba(5,179,162,1) 100%);
+    /*background: linear-gradient(#2883ff,#00a5de);*/
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover{
+    background: #000000;    
+
+}
+
+
+
+/******************************scroll ends************************/
+
