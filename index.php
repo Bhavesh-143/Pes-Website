@@ -112,10 +112,10 @@
       <div class="swiper-slide"><img src="popular/F. DE JONG.png"></div>
       <div class="swiper-slide"><img src="popular/K. DE BRUYNE.png"></div>
       <div class="swiper-slide"><img src="popular/M. SALAH.png"></div>
-      <div class="swiper-slide"><img src="popular/S. MANÉ.png"></div>
+      <div class="swiper-slide"><img src="popular/S. MANE.png"></div>
       <div class="swiper-slide"><img src="popular/K. KOULIBALY.png"></div>
       <div class="swiper-slide"><img src="popular/D. ALABA.png"></div>
-      <div class="swiper-slide"><img src="popular/JOÃO FÉLIX.png"></div>
+      <div class="swiper-slide"><img src="popular/JOAO FELIX.png"></div>
       <div class="swiper-slide"><img src="popular/ALISSON.png"></div>
       <div class="swiper-slide"><img src="popular/R. LUKAKU.png"></div>
     </div>
@@ -192,7 +192,7 @@
       <div class="swiper-slide"><img src="Images/D. MARADONA (1).png"></div>
       <div class="swiper-slide"><img src="Images/J. CRUIJFF (1).png"></div>
       <div class="swiper-slide"><img src="Images/ZICO (1).png"></div>
-      <div class="swiper-slide"><img src="Images/ROMÁRIO.png"></div>
+      <div class="swiper-slide"><img src="Images/ROMARIO.png"></div>
       <div class="swiper-slide"><img src="Images/K. RUMMENIGGE (1).png"></div>
       <div class="swiper-slide"><img src="Images/RONALDINHO G. (1).png"></div>
       <div class="swiper-slide"><img src="Images/F. BECKENBAUER.png"></div>
@@ -203,7 +203,7 @@
       <div class="swiper-slide"><img src="Images/G. BATISTUTA.png"></div>
       <div class="swiper-slide"><img src="Images/R. GULLIT.png"></div>
       <div class="swiper-slide"><img src="Images/D. BECKHAM (1).png"></div>
-      <div class="swiper-slide"><img src="Images/P. NEDVĚD.png"></div>
+      <div class="swiper-slide"><img src="Images/P. NEDVED.png"></div>
       <div class="swiper-slide"><img src="Images/P. VIEIRA.png"></div>
       
     </div>
