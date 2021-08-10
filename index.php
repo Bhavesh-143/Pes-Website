@@ -108,7 +108,7 @@
   <div class="swiper-container px-3">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="popular/L. MESSI (3).png"></div>
-      <div class="swiper-slide"><img src="popular/CRISTIANO RONALDO.png"><div>
+      <div class="swiper-slide"><img src="popular/CRISTIANO RONALDO.png"></div>
       <div class="swiper-slide"><img src="popular/D. SÁNCHEZ.png"></div>
       <div class="swiper-slide"><img src="popular/K. MBAPPÉ.png"></div>
       <div class="swiper-slide"><img src="popular/MARQUINHOS.png"></div>
