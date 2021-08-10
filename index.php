@@ -107,17 +107,17 @@
 <div class="swiper-container-outer">
   <div class="swiper-container px-3">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="popular/C. RONALDO (2).png"></div>
-      <div class="swiper-slide"><img src="popular/E. HAZARD.png"></div>
-      <div class="swiper-slide"><img src="popular/F. DE JONG.png"></div>
-      <div class="swiper-slide"><img src="popular/K. DE BRUYNE.png"></div>
-      <div class="swiper-slide"><img src="popular/M. SALAH.png"></div>
-      <div class="swiper-slide"><img src="popular/S. MANE.png"></div>
-      <div class="swiper-slide"><img src="popular/K. KOULIBALY.png"></div>
-      <div class="swiper-slide"><img src="popular/D. ALABA.png"></div>
-      <div class="swiper-slide"><img src="popular/JOAO FELIX.png"></div>
-      <div class="swiper-slide"><img src="popular/ALISSON.png"></div>
-      <div class="swiper-slide"><img src="popular/R. LUKAKU.png"></div>
+      <div class="swiper-slide"><img src="popular/L. MESSI (3).png"></div>
+      <div class="swiper-slide"><img src="popular/CRISTIANO RONALDO.png"><div>
+      <div class="swiper-slide"><img src="popular/D. SÁNCHEZ.png"></div>
+      <div class="swiper-slide"><img src="popular/K. MBAPPÉ.png"></div>
+      <div class="swiper-slide"><img src="popular/MARQUINHOS.png"></div>
+      <div class="swiper-slide"><img src="popular/P. KIMPEMBE.png"></div>
+      <div class="swiper-slide"><img src="popular/T. WERNER.png"></div>
+      <div class="swiper-slide"><img src="popular/M. MAIGNAN.png"></div>
+      <div class="swiper-slide"><img src="popular/M. KEAN.png"></div>
+      <div class="swiper-slide"><img src="popular/B. YILMAZ.png"></div>
+      <div class="swiper-slide"><img src="popular/H. AOUAR.png"></div>
     </div>
     <!------------------- Add Pagination ------------------->
     <div class="swiper-pagination"></div>
